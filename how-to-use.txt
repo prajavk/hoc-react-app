@@ -1,0 +1,57 @@
+# How to use the downloaded files
+This app runs on node 8+
+1) Run "npm install" in the extracted folder
+2) `npm run prettier` to format jsx code
+3) `npm run build` for prod build
+2) Run "npm start" to view the project
+
+https://github.com/emmyyusufu/react-router-demos/tree/completed
+
+# How to use HOC in React?
+HOC should always be a pure function. That means that the same enhanced component should always be returned with the same base component passed as a parameter.
+Don’t use HOCs inside the render method. This makes React's reconciliation algorithm think that a new component is redeclared within each render, causing the whole subtree to be unmounted rather than just checked for differences.
+Static methods do not get copied implicitly. This needs to be done explicit. A good way to do it is with hoist-non-react-statics package.
+Refs don’t get passed through.
+
+Since HOCs create a new abstract container component, here is the list of things that you can normally do with them:
+Wrap an element or component around a component.
+State abstraction.
+Manipulate props, e.g. adding new props and modifying or removing existing props.
+Props validation to create.
+Use refs to access instance methods.
+
+# TODO apps to integrate
+Dan function class app https://codesandbox.io/s/pjqnl16lm7
+https://overreacted.io/how-are-function-components-different-from-classes/
+social-app
+pizza-app
+author-app
+user-Props
+
+handle window errors at one replace
+https://jsfiddle.net/prajavk/d0ywj710/
+
+set interval for login session
+https://jsfiddle.net/prajavk/wq4mqLpt/
+
+# React Performance for PROD build
+https://reactjs.org/docs/optimizing-performance.html
+
+# Render techniques
+https://www.robinwieruch.de/conditional-rendering-react/
+
+# faker.js - external data to use in app
+http://marak.github.io/faker.js/
+
+# How to use transformers in axios
+https://gist.github.com/klummy/cf739bdb3c63264d8d6427d9b6f8772d
+https://github.com/axios/axios/blob/master/examples/transform-response/index.html
+https://gist.github.com/bvaughn/982ab689a41097237f6e9860db7ca8d6
+
+# es6- object destruction
+https://medium.freecodecamp.org/the-basics-of-destructuring-props-in-react-a196696f5477
+https://googlechrome.github.io/samples/object-assign-es6/
+
+# Use lodash
+http://zetcode.com/javascript/lodash/
+https://medium.com/voobans-tech-stories/10-lodash-functions-everyone-should-know-334b372aec5d
