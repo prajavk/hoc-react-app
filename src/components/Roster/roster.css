@@ -1,0 +1,15 @@
+ul .list-circle {
+  list-style: circle inside none;
+}
+
+ul .list-ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+li .list-li {
+    padding: 10px;
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+  }
