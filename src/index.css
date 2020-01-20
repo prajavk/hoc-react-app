@@ -1,0 +1,78 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+
+/*
+	https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css 
+*/
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#wrapper {
+  width: 100%;
+  min-width: 1230px;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+
+
+
+/* navigation links
+.nav-bar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-bar li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+.nav-bar li:last-child {
+  border-right: none;
+}
+
+.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.nav-bar .active {
+  background-color: #4CAF50;
+}
+
+.nav-bar .right{
+	float:right;
+}
+*/
