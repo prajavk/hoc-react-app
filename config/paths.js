@@ -1,4 +1,4 @@
-"use strict";
+
 
 const path = require("path");
 const fs = require("fs");
@@ -45,6 +45,7 @@ module.exports = {
   appPublic: resolveApp("public"),
   appHtml: resolveApp("public/index.html"),
   appIndexJs: resolveApp("src/index.js"),
+  moduleFileExtensions: ['.js', '.jsx', '.ts', '.tsx'],
   appPackageJson: resolveApp("package.json"),
   appSrc: resolveApp("src"),
   yarnLockFile: resolveApp("yarn.lock"),
