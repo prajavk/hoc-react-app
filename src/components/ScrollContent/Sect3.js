@@ -1,9 +1,9 @@
-import React, { forwardRef, useRef, useImperativeHandle } from "react";
+import React, { useRef, useImperativeHandle } from "react";
 
-export default forwardRef((props, ref) => {
+function Section3(props, forwardedRef) {
   const sectionRef = useRef();
 
-  useImperativeHandle(ref, () => ({
+  useImperativeHandle(forwardedRef, () => ({
     scrollIntoView: () => {
       sectionRef.current.scrollIntoView({
         block: "start",
@@ -35,4 +35,6 @@ export default forwardRef((props, ref) => {
       </p>
     </div>
   );
-});
+}
+
+export const Sect3 = React.forwardRef(Section3);

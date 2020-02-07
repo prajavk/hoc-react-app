@@ -1,5 +1,5 @@
 import React from "react";
-
+import { PropTypes } from "prop-types";
 class NavMenu extends React.Component {
   scrollHere = e => {
     const refName = e.target.className;
@@ -10,23 +10,20 @@ class NavMenu extends React.Component {
     const { scollToLinkA, scollToLinkB, scollToLinkC } = this.props;
 
     return (
-      <nav>
+      <nav className="link-nav">
         <ul>
           <li>
             <div onClick={scollToLinkA}>
-              <h3>|</h3>
               <p>Div1</p>
             </div>
           </li>
           <li>
             <div onClick={scollToLinkB}>
-              <h3>|</h3>
               <p>Div2</p>
             </div>
           </li>
           <li>
             <div onClick={scollToLinkC}>
-              <h3>|</h3>
               <p>Div3</p>
             </div>
           </li>
@@ -37,3 +34,10 @@ class NavMenu extends React.Component {
 }
 
 export default NavMenu;
+
+NavMenu.propTypes = {
+  onClick: PropTypes.func,
+  scollToLinkA: PropTypes.func,
+  scollToLinkB: PropTypes.func,
+  scollToLinkC: PropTypes.func
+};

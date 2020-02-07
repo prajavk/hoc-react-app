@@ -183,7 +183,7 @@ module.exports = {
     "jsx-a11y/anchor-is-valid": [
       "warn",
       {
-        aspects: ["noHref"] // CX CHANGE. Removed invalidHref as a check.
+        aspects: ["noHref"] // CHANGE. Removed invalidHref as a check.
       }
     ],
     "jsx-a11y/aria-activedescendant-has-tabindex": "warn",
