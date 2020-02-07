@@ -62,7 +62,7 @@ https://docs.npmjs.com/common-errors
 
 ## GIT commands
 
-`git clone https://ghe.coxautoinc.com/XTime/sample-portal.git`
+`git clone`
 `git pull`
 `git status`
 `git branch`
