@@ -39,7 +39,7 @@
     "promise": "8.0.1",
     "radium": "^0.19.4",
     "react": "16.8.6",
-    "react-dev-utils": "10.0.0",
+    "react-dev-utils": "11.0.4",
     "react-dom": "16.8.6",
     "react-router": "4.2.0",
     "react-router-dom": "4.2.2",
